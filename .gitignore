@@ -1,0 +1,6 @@
+/vendor/*
+*.code-workspace
+.vscode
+.idea
+
+composer.lock

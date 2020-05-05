@@ -1,0 +1,16 @@
+{
+	"name": "trackpoint/pdo-extension",
+	"description": "Library for relation between API interfaces",
+	"type": "library",
+	"require": {
+		"php": "^7.4",
+		"php-ds/php-ds": "dev-master",
+		"psr/log": "^1.0.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Trackpoint\\PDOExtension\\": "src/"
+		}
+	},
+	"scripts": {}
+}
