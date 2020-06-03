@@ -44,7 +44,7 @@ class PDOPGStatement extends PDOStatement
 		return $value;
 	}
 
-	public function fetch(int $fetch_style = PDO::FETCH_ASSOC, int $cursor_orientation = PDO::FETCH_ORI_NEXT, int $cursor_offset = 0)
+	public function fetch($fetch_style = PDO::FETCH_ASSOC, $cursor_orientation = PDO::FETCH_ORI_NEXT, $cursor_offset = 0)
 	{
 		$raw   = parent::fetch($fetch_style, $cursor_orientation, $cursor_offset);
 		$tuple = [];
